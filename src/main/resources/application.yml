@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://aureserver.database.windows.net:1433;database=azureAssignDB;user=yashraj@aureserver;password=Rustampur@1234;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: yashraj
+    password: Rustampur@1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191
+
+
